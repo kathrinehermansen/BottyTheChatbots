@@ -33,6 +33,9 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+.local.properties
+local.properties
+**/.local.properties
 
 # Common IntelliJ Platform excludes
 
@@ -72,8 +75,3 @@ Desktop.ini
 # file: ~/.gitignore_global
 .DS_Store
 .idea
-.local.properties
-local.properties
-**/local.properties
-
-
