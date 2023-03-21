@@ -32,7 +32,7 @@ public class GroceryBot {
 
     private static String retrieveKey () throws IOException {
         String key = "";
-        InputStream inputStream = GroceryBot.class.getResourceAsStream("/local.properties");
+        InputStream inputStream = GroceryBot.class.getResourceAsStream("/application.properties");
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         while(reader.ready()) {
             key = reader.readLine();
