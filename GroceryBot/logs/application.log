@@ -1,0 +1,89 @@
+2023-03-21 13:25:43 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/usr/local/Cellar/maven/3.8.3/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/KathrineH/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/usr/local/Cellar/maven/3.8.3/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=KathrineH
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/KathrineH
+library.jansi.path=/usr/local/Cellar/maven/3.8.3/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/usr/local/Cellar/maven/3.8.3/libexec/conf
+java.library.path=/Users/KathrineH/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/usr/local/Cellar/maven/3.8.3/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/dk/7d2w1mdd3mng9zk226gt8m8h0000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/KathrineH/BottyMaster/xatkit/xatkit-examples/GroceryBot/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/KathrineH/BottyMaster/xatkit/xatkit-examples/GroceryBot/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-21 13:25:44 INFO  Starting RegExIntentRecognitionProvider
+2023-03-21 13:25:44 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-21 13:25:44 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-21 13:25:44 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-21 13:25:44 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-21 13:25:44 INFO  SocketIO server started at port: 5001
+2023-03-21 13:25:44 INFO  Starting ReactEventProvider
+2023-03-21 13:25:44 INFO  Starting ReactIntentProvider
+2023-03-21 13:25:44 INFO  Registering execution rule events
+2023-03-21 13:25:44 INFO  Starting XatkitServer
+2023-03-21 13:25:44 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-21 13:25:44 INFO  XatkitServer started, listening on port 5?000
+2023-03-21 13:25:44 INFO  Xatkit bot started
+2023-03-21 13:25:54 INFO  Stopping SocketIO server
+2023-03-21 13:25:54 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-21 13:25:58 INFO  SocketIO server stopped
