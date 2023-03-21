@@ -43,7 +43,6 @@ public class GroceryBot {
     public static void main(String[] args) throws IOException {
 
         String key = retrieveKey();
-        System.out.println(key);
 
         val greetings = intent("Greetings")
                 .trainingSentence("Hi")
