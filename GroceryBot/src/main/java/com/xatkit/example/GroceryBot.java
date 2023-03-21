@@ -18,17 +18,32 @@ import static com.xatkit.dsl.DSL.country;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
-import org.json.JSONArray;
 import org.json.JSONObject;
 import com.mashape.unirest.http.Unirest;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class GroceryBot {
 
-    public static void main(String[] args) {
+    private static String retrieveKey () throws IOException {
+        String key = "";
+        InputStream inputStream = GroceryBot.class.getResourceAsStream("/local.properties");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        while(reader.ready()) {
+            key = reader.readLine();
+        }
+        return key;
+    }
+
+    public static void main(String[] args) throws IOException {
+
+        String key = retrieveKey();
+        System.out.println(key);
 
         val greetings = intent("Greetings")
                 .trainingSentence("Hi")
@@ -85,8 +100,8 @@ public class GroceryBot {
                     queryParameters.put("name", product);
 
                     try {
-                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=Grandiosa&page=3&price_max=100&sort=price_desc")
-                                .header("Authorization", "Bearer " + "dvBWBtYQ3ZnH9uKDvQ5D6XmavMYSKvvgc1AXLITd")
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
                                 .header("Accept", "application/json")
                                 .asString();
 
@@ -95,6 +110,7 @@ public class GroceryBot {
 
                             JSONObject jsonObject = new JSONObject(response.getBody());
                             System.out.println(jsonObject);
+                            reactPlatform.reply(context, "Yes we do have " + product);
                         } else if (response.getStatus() == 400) {
                             reactPlatform.reply(context, "Oops, I couldn't find this country");
                         } else {
@@ -118,6 +134,8 @@ public class GroceryBot {
                 .defaultFallbackState(defaultFallback);
 
         Configuration botConfiguration = new BaseConfiguration();
+
+        botConfiguration.getProperty("apiKey");
 
         XatkitBot xatkitBot = new XatkitBot(botModel, botConfiguration);
         xatkitBot.run();
