@@ -58,8 +58,10 @@ public class GroceryBot {
                 .trainingSentence("What's up?")
                 .trainingSentence("How do you feel?");
 
-        val doYouHaveProduct = intent("DoYouHaveProduct")
-                .trainingSentence("Do you have PRODUCT?")
+        val productAllergens = intent("ProductAllergens")
+                .trainingSentence("What are the allergens of PRODUCT?")
+                .trainingSentence("allergens of PRODUCT?")
+                .trainingSentence("Which allergens does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
         val doYouHavePrice = intent("DoYouHavePrice")
@@ -75,7 +77,7 @@ public class GroceryBot {
         val awaitingInput = state("AwaitingInput");
         val handleWelcome = state("HandleWelcome");
         val handleWhatsUp = state("HandleWhatsUp");
-        val handleDoYouHaveProduct = state("HandleDoYouHaveProduct");
+        val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
 
         init
@@ -85,7 +87,7 @@ public class GroceryBot {
         awaitingInput
                 .next()
                 .when(intentIs(greetings)).moveTo(handleWelcome)
-                .when(intentIs(doYouHaveProduct)).moveTo(handleDoYouHaveProduct)
+                .when(intentIs(productAllergens)).moveTo(handleProductAllergens)
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp);
 
@@ -99,7 +101,7 @@ public class GroceryBot {
                 .next()
                 .moveTo(awaitingInput);
 
-       /* handleDoYouHaveProduct
+        handleProductAllergens
                 .body(context -> {
                     String product = (String) context.getIntent().getValue("name");
                     System.out.println("Yes we do have product " + product);
@@ -114,17 +116,48 @@ public class GroceryBot {
                                 .header("Accept", "application/json")
                                 .asString();
 
-                        //HttpResponse<String> response = Unirest.get( "https://ajayakv-rest-countries-v1.p.rapidapi.com/rest/v1/all").header("name", country).asString();
+
                         if (response.getStatus() == 200) {
 
-
-
-
                             JSONObject jsonObject = new JSONObject(response.getBody());
-                            System.out.println(jsonObject);
-                            reactPlatform.reply(context, "Yes we do have " + product);
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            String productName = dataArray.getJSONObject(0).getString("name");
+                            String brandName = dataArray.getJSONObject(0).getString("brand");
+
+                            JSONArray allergensdata = dataArray.getJSONObject(0).getJSONArray("allergens");
+
+                            String allergenDisplayName = null;
+                            String containsAllergen = null;
+                            String allergens = "";
+
+                            //loop through allergens and add names to the list if contains is YES
+                            for (int i = 0; i < allergensdata.length(); i++) {
+                                JSONObject allergen = allergensdata.getJSONObject(i);
+                                allergenDisplayName = allergen.getString("display_name");
+                                containsAllergen = allergen.getString("contains");
+
+                                if (containsAllergen.equals("YES")){
+                                    allergens += allergenDisplayName + ", ";
+                                    System.out.println(allergenDisplayName);
+
+                                }
+                            }
+                            if (allergens.isEmpty()) {
+                                reactPlatform.reply(context, "No allergens found for " + productName + " from " + brandName);
+
+                            } else if (containsAllergen.equals("UNKNOWN")){
+                                reactPlatform.reply(context, "Allergens are not stated for " + productName + " from " + brandName);
+
+                            }
+                            else {
+                                allergens = allergens.substring(0, allergens.length() - 2);
+                                System.out.println("The allergens of the " + product + " is  " + allergens );
+                                reactPlatform.reply(context, "The allergens of  " + productName + " from " + brandName + " are: " + allergens);
+                            }
+
+
                         } else if (response.getStatus() == 400) {
-                            reactPlatform.reply(context, "Oops, I couldn't find this country");
+                            reactPlatform.reply(context, "Oops, I couldn't find this product");
                         } else {
                             reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
                         }
@@ -134,7 +167,7 @@ public class GroceryBot {
                 })
                 .next()
                 .moveTo(awaitingInput);
-          */
+
         handleDoYouHavePrice
                 .body(context -> {
                     String product = (String) context.getIntent().getValue("name");
@@ -160,6 +193,9 @@ public class GroceryBot {
                             double currentPrice = dataArray.getJSONObject(0).getDouble("current_price");
                             String brandName = dataArray.getJSONObject(0).getString("brand");
                             String storeName = dataArray.getJSONObject(0).getJSONObject("store").getString("name");
+
+
+
 
                             System.out.println("The price of " + product + " is currently " + currentPrice +  "kr");
                             reactPlatform.reply(context, "The price of  " + productName + " from " + brandName +" is currently " + currentPrice + " kr, from store " + storeName);
