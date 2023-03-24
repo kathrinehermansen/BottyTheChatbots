@@ -18,6 +18,8 @@ import static com.xatkit.dsl.DSL.country;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import com.mashape.unirest.http.Unirest;
 
@@ -27,6 +29,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Iterator;
 
 public class GroceryBot {
 
@@ -59,6 +62,11 @@ public class GroceryBot {
                 .trainingSentence("Do you have PRODUCT?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val doYouHavePrice = intent("DoYouHavePrice")
+                .trainingSentence("What is the price of PRODUCT?")
+                .trainingSentence("What is the price of this PRODUCT?")
+                .parameter("name").fromFragment("PRODUCT").entity(country());
+
         ReactPlatform reactPlatform = new ReactPlatform();
         ReactEventProvider reactEventProvider = reactPlatform.getReactEventProvider();
         ReactIntentProvider reactIntentProvider = reactPlatform.getReactIntentProvider();
@@ -68,6 +76,7 @@ public class GroceryBot {
         val handleWelcome = state("HandleWelcome");
         val handleWhatsUp = state("HandleWhatsUp");
         val handleDoYouHaveProduct = state("HandleDoYouHaveProduct");
+        val handleDoYouHavePrice = state("HandleDoYouHavePrice");
 
         init
                 .next()
@@ -77,6 +86,7 @@ public class GroceryBot {
                 .next()
                 .when(intentIs(greetings)).moveTo(handleWelcome)
                 .when(intentIs(doYouHaveProduct)).moveTo(handleDoYouHaveProduct)
+                .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp);
 
         handleWelcome
@@ -89,7 +99,7 @@ public class GroceryBot {
                 .next()
                 .moveTo(awaitingInput);
 
-        handleDoYouHaveProduct
+       /* handleDoYouHaveProduct
                 .body(context -> {
                     String product = (String) context.getIntent().getValue("name");
                     System.out.println("Yes we do have product " + product);
@@ -107,6 +117,9 @@ public class GroceryBot {
                         //HttpResponse<String> response = Unirest.get( "https://ajayakv-rest-countries-v1.p.rapidapi.com/rest/v1/all").header("name", country).asString();
                         if (response.getStatus() == 200) {
 
+
+
+
                             JSONObject jsonObject = new JSONObject(response.getBody());
                             System.out.println(jsonObject);
                             reactPlatform.reply(context, "Yes we do have " + product);
@@ -117,6 +130,51 @@ public class GroceryBot {
                         }
                     } catch(UnirestException e) {
                         e.printStackTrace();
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+          */
+        handleDoYouHavePrice
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    System.out.println("The name of the product is  " + product);
+
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+
+                        if (response.getStatus() == 200) {
+
+                            // System.out.println(response.getBody());
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            String productName = dataArray.getJSONObject(0).getString("name");
+                            double currentPrice = dataArray.getJSONObject(0).getDouble("current_price");
+                            String brandName = dataArray.getJSONObject(0).getString("brand");
+                            String storeName = dataArray.getJSONObject(0).getJSONObject("store").getString("name");
+
+                            System.out.println("The price of " + product + " is currently " + currentPrice +  "kr");
+                            reactPlatform.reply(context, "The price of  " + productName + " from " + brandName +" is currently " + currentPrice + " kr, from store " + storeName);
+
+
+
+
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the price of this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+
                     }
                 })
                 .next()
