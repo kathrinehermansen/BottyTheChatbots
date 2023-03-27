@@ -30,6 +30,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Iterator;
+import java.lang.Integer;
 
 public class GroceryBot {
 
@@ -69,6 +70,13 @@ public class GroceryBot {
                 .trainingSentence("What is the price of this PRODUCT?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val productCalories = intent("ProductCalories")
+                .trainingSentence("What are the calories of PRODUCT?")
+                .trainingSentence("What are the calories in PRODUCT?")
+                .trainingSentence("calories in PRODUCT?")
+                .trainingSentence("How many calories does PRODUCT have?")
+                .parameter("name").fromFragment("PRODUCT").entity(country());
+
         ReactPlatform reactPlatform = new ReactPlatform();
         ReactEventProvider reactEventProvider = reactPlatform.getReactEventProvider();
         ReactIntentProvider reactIntentProvider = reactPlatform.getReactIntentProvider();
@@ -79,6 +87,7 @@ public class GroceryBot {
         val handleWhatsUp = state("HandleWhatsUp");
         val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
+        val handleProductCalories = state("HandleProductCalories");
 
         init
                 .next()
@@ -89,6 +98,7 @@ public class GroceryBot {
                 .when(intentIs(greetings)).moveTo(handleWelcome)
                 .when(intentIs(productAllergens)).moveTo(handleProductAllergens)
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
+                .when(intentIs(productCalories)).moveTo(handleProductCalories)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp);
 
         handleWelcome
@@ -211,6 +221,56 @@ public class GroceryBot {
                     } catch(UnirestException e) {
                         e.printStackTrace();
 
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
+        handleProductCalories
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    System.out.println("Yes we do have product " + product);
+
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+
+                        if (response.getStatus() == 200) {
+
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            String productName = dataArray.getJSONObject(0).getString("name");
+                            String brandName = dataArray.getJSONObject(0).getString("brand");
+
+                            JSONArray nutritionData = dataArray.getJSONObject(0).getJSONArray("nutrition");
+                            System.out.println(nutritionData);
+
+                            String calories = "";
+
+                            int kcal = nutritionData.getJSONObject(0).getInt("amount");
+                            calories = Integer.toString(kcal) + " kcal per 100g ";
+
+
+
+                            System.out.println("The calories of  " + product + " is  " + calories);
+                            reactPlatform.reply(context, "The number of calories in  " + productName + " from " + brandName + " is: " + calories);
+
+
+
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
                     }
                 })
                 .next()
