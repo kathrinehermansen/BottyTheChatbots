@@ -77,6 +77,12 @@ public class GroceryBot {
                 .trainingSentence("How many calories does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val productIngredients= intent("ProductIngredients")
+                .trainingSentence("What are the ingredients of PRODUCT?")
+                .trainingSentence("What are the ingredients in PRODUCT?")
+                .trainingSentence("ingredients in PRODUCT?")
+                .parameter("name").fromFragment("PRODUCT").entity(country());
+
         ReactPlatform reactPlatform = new ReactPlatform();
         ReactEventProvider reactEventProvider = reactPlatform.getReactEventProvider();
         ReactIntentProvider reactIntentProvider = reactPlatform.getReactIntentProvider();
@@ -88,6 +94,7 @@ public class GroceryBot {
         val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
         val handleProductCalories = state("HandleProductCalories");
+        val handleProductIngredients = state("HandleProductIngredients");
 
         init
                 .next()
@@ -99,6 +106,7 @@ public class GroceryBot {
                 .when(intentIs(productAllergens)).moveTo(handleProductAllergens)
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(productCalories)).moveTo(handleProductCalories)
+                .when(intentIs(productIngredients)).moveTo(handleProductIngredients)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp);
 
         handleWelcome
@@ -275,6 +283,72 @@ public class GroceryBot {
                 })
                 .next()
                 .moveTo(awaitingInput);
+
+        handleProductIngredients
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    System.out.println("The name of the product is  " + product);
+
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+
+                        if (response.getStatus() == 200) {
+                                JSONObject jsonObject = new JSONObject(response.getBody());
+                                JSONArray dataArray = jsonObject.getJSONArray("data");
+                                String productName = dataArray.getJSONObject(0).getString("name");
+                                Object ingredientsObject = dataArray.getJSONObject(0).get("ingredients");
+                                String brandName = dataArray.getJSONObject(0).getString("brand");
+
+                                if (ingredientsObject == null) {
+                                    reactPlatform.reply(context, "Couldn't find the list of ingredients of " + productName + " from " + brandName);
+                                } else if (ingredientsObject instanceof String) {
+                                    String ingredients = (String) ingredientsObject;
+                                    System.out.println("The ingredients of " + productName + " are " + ingredients);
+                                    reactPlatform.reply(context, "The ingredients of " + productName + " from " + brandName + " are: " + ingredients);
+                                } else {
+                                    reactPlatform.reply(context, "Couldn't find the list of ingredients of " + productName + " from " + brandName);
+                                }
+
+
+                           /* // System.out.println(response.getBody());
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            String productName = dataArray.getJSONObject(0).getString("name");
+                            String ingredients = dataArray.getJSONObject(0).getString("ingredients");
+                            String brandName = dataArray.getJSONObject(0).getString("brand");
+
+
+                            if(ingredients.isEmpty() || ingredients ==null) {
+                                reactPlatform.reply(context, "Couldn't find the list of ingredients of " + productName + " from " + brandName);
+
+
+                            } else {
+                                System.out.println("The ingredients of " + product + " are  " + ingredients + "");
+                                reactPlatform.reply(context, "The ingredients of  " + productName + " from " + brandName + " are:  " + ingredients);
+
+                            }
+*/
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the price of this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
 
         val defaultFallback = fallbackState()
                 .body(context -> reactPlatform.reply(context, "Sorry, I didn't, get it"));
