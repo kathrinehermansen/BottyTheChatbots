@@ -299,7 +299,7 @@ public class GroceryBot {
                     queryParameters.put("store", store);
 
                     try {
-                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product +"&size=50")
                                 .header("Authorization", "Bearer " + key)
                                 .header("Accept", "application/json")
                                 .asString();
