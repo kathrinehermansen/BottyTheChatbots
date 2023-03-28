@@ -15,6 +15,8 @@ import static com.xatkit.dsl.DSL.intentIs;
 import static com.xatkit.dsl.DSL.model;
 import static com.xatkit.dsl.DSL.state;
 import static com.xatkit.dsl.DSL.country;
+import static com.xatkit.dsl.DSL.any;
+import static com.xatkit.dsl.DSL.mapping;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.http.HttpResponse;
@@ -77,6 +79,13 @@ public class GroceryBot {
                 .trainingSentence("How many calories does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val priceAndStore = intent("PriceAndStore")
+                .trainingSentence("What is the price of PRODUCT from STORE?")
+                .trainingSentence("I would like to know the price of PRODUCT from STORE")
+                .trainingSentence("How much does PRODUCT from STORE cost?")
+                .parameter("name").fromFragment("PRODUCT").entity(any())
+                .parameter("store").fromFragment("STORE").entity(any());
+
         ReactPlatform reactPlatform = new ReactPlatform();
         ReactEventProvider reactEventProvider = reactPlatform.getReactEventProvider();
         ReactIntentProvider reactIntentProvider = reactPlatform.getReactIntentProvider();
@@ -88,6 +97,7 @@ public class GroceryBot {
         val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
         val handleProductCalories = state("HandleProductCalories");
+        val handlePriceAndStore = state("HandlePriceAndStore");
 
         init
                 .next()
@@ -99,7 +109,8 @@ public class GroceryBot {
                 .when(intentIs(productAllergens)).moveTo(handleProductAllergens)
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(productCalories)).moveTo(handleProductCalories)
-                .when(intentIs(howAreYou)).moveTo(handleWhatsUp);
+                .when(intentIs(howAreYou)).moveTo(handleWhatsUp)
+                .when(intentIs(priceAndStore)).moveTo(handlePriceAndStore);
 
         handleWelcome
                 .body(context -> reactPlatform.reply(context, "Hi, nice to meet you!"))
@@ -115,7 +126,6 @@ public class GroceryBot {
                 .body(context -> {
                     String product = (String) context.getIntent().getValue("name");
                     System.out.println("Yes we do have product " + product);
-
 
                     Map<String, Object> queryParameters = new HashMap<>();
                     queryParameters.put("name", product);
@@ -266,6 +276,59 @@ public class GroceryBot {
 
                         } else if (response.getStatus() == 400) {
                             reactPlatform.reply(context, "Oops, I couldn't find this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
+        handlePriceAndStore
+                .body(context -> {
+
+                    String product = (String) context.getIntent().getValue("name");
+                    System.out.println("The name of the product is " + product);
+                    String store = (String) context.getIntent().getValue("store");
+                    System.out.println("The name of the store is " + store);
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+                    queryParameters.put("store", store);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+                        if (response.getStatus() == 200) {
+
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            int answers = 0;
+
+                            for (int i = 0; i<dataArray.length(); i++) {
+                                String storeName = dataArray.getJSONObject(i).getJSONObject("store").getString("name");
+                                if (storeName.equalsIgnoreCase(store)) {
+                                    answers++;
+                                    if (answers == 1) {
+                                        reactPlatform.reply(context, "Your search of product " + product + " from store " + store + " gave these results:");
+                                    }
+                                    String productName = dataArray.getJSONObject(i).getString("name");
+                                    double currentPrice = dataArray.getJSONObject(i).getDouble("current_price");
+                                    String brandName = dataArray.getJSONObject(i).getString("brand");
+                                    reactPlatform.reply(context, "The price of  " + productName + " from " + brandName +" is currently " + currentPrice + " kr, from store " + storeName);
+                                }
+                            }
+
+                            if (answers == 0) {
+                                reactPlatform.reply(context, "Sadly, your search gave no results.");
+                            }
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the price of this product");
                         } else {
                             reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
                         }
