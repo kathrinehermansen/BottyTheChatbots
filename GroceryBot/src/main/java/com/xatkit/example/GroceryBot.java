@@ -22,7 +22,6 @@ import static com.xatkit.dsl.DSL.mapping;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import com.mashape.unirest.http.Unirest;
@@ -32,8 +31,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
-import java.util.Iterator;
 import java.lang.Integer;
 
 public class GroceryBot {
@@ -95,6 +94,13 @@ public class GroceryBot {
                 .trainingSentence("Which allergens does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val hasAllergen = intent("HasAllergen")
+                .trainingSentence("Does PRODUCT have ALLERGEN?")
+                .trainingSentence("Does PRODUCT contain ALLERGEN?")
+                .parameter("name").fromFragment("PRODUCT").entity(any())
+                .parameter("allergen").fromFragment("ALLERGEN").entity(any());
+
+
         val doYouHavePrice = intent("DoYouHavePrice")
                 .trainingSentence("What is the price of PRODUCT?")
                 .trainingSentence("What is the price of this PRODUCT?")
@@ -107,6 +113,12 @@ public class GroceryBot {
                 .trainingSentence("How many calories does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val productIngredients= intent("ProductIngredients")
+                .trainingSentence("What are the ingredients of PRODUCT?")
+                .trainingSentence("What are the ingredients in PRODUCT?")
+                .trainingSentence("ingredients in PRODUCT?")
+                .parameter("name").fromFragment("PRODUCT").entity(country());
+                
         val productMaxPrice = intent("ProductMaxPrice")
                 .trainingSentence("List me products with the word PRODUCT in it, with maximum price of MAXPRICE kr")
                 .trainingSentence("List me PRODUCT with max price of MAXPRICE kr")
@@ -147,6 +159,8 @@ public class GroceryBot {
         val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
         val handleProductCalories = state("HandleProductCalories");
+        val handleProductIngredients = state("HandleProductIngredients");
+        val handleHasAllergen = state("HandleHasAllergen");
         val handleProductMaxPrice = state("HandleProductMaxPrice");
         val handlePriceAndStore = state("HandlePriceAndStore");
         val handleNarrowMySearch = state("HandleNarrowMySearch");
@@ -162,6 +176,8 @@ public class GroceryBot {
                 .when(intentIs(productAllergens)).moveTo(handleProductAllergens)
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(productCalories)).moveTo(handleProductCalories)
+                .when(intentIs(productIngredients)).moveTo(handleProductIngredients)
+                .when(intentIs(hasAllergen)).moveTo(handleHasAllergen)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp)
                 .when(intentIs(productMaxPrice)).moveTo(handleProductMaxPrice)
                 .when(intentIs(priceAndStore)).moveTo(handlePriceAndStore)
@@ -201,6 +217,7 @@ public class GroceryBot {
                             String brandName = dataArray.getJSONObject(0).getString("brand");
 
                             JSONArray allergensdata = dataArray.getJSONObject(0).getJSONArray("allergens");
+                            System.out.println(allergensdata);
 
                             String allergenDisplayName = null;
                             String containsAllergen = null;
@@ -216,13 +233,13 @@ public class GroceryBot {
                                     allergens += allergenDisplayName + ", ";
                                     System.out.println(allergenDisplayName);
 
-                                }
-                            }
-                            if (allergens.isEmpty()) {
-                                reactPlatform.reply(context, "No allergens found for " + productName + " from " + brandName);
+                                } // virker ikke foreløpig
 
-                            } else if (containsAllergen.equals("UNKNOWN")){
+                            } if(allergensdata.length() < 1) {
                                 reactPlatform.reply(context, "Allergens are not stated for " + productName + " from " + brandName);
+
+                            } else if (allergens.isEmpty()) {
+                            reactPlatform.reply(context, "No allergens found for " + productName + " from " + brandName);
 
                             }
                             else {
@@ -239,6 +256,112 @@ public class GroceryBot {
                         }
                     } catch(UnirestException e) {
                         e.printStackTrace();
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
+        handleHasAllergen
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    String allergen = (String) context.getIntent().getValue("allergen");
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+                    queryParameters.put("allergen", allergen);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+                        if (response.getStatus() == 200) {
+
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+                            JSONArray allergensData = dataArray.getJSONObject(0).getJSONArray("allergens");
+
+                            String allergenDisplayName = null;
+                            String containsAllergen = null;
+                            String allergens = "";
+
+                            //loop through allergens
+                            for (int i = 0; i < allergensData.length(); i++) {
+                                JSONObject allergenName = allergensData.getJSONObject(i);
+                                allergenDisplayName = allergenName.getString("display_name").toLowerCase();
+                                containsAllergen = allergenName.getString("contains");
+
+                                if (containsAllergen.equals("YES") && allergenDisplayName.equals(allergen)) {
+                                    allergens = allergenDisplayName;
+                                }
+                            }
+
+                            if (!allergens.isEmpty()) {
+                                reactPlatform.reply(context, "Yes, " + product + " contains " + allergens);
+
+                            } else if(allergensData.length() < 1) {
+                                reactPlatform.reply(context, "Allergens are not stated for " + product );
+                            } else {
+                                reactPlatform.reply(context, "No " + allergen + " is not found in " + product);
+                            }
+
+
+
+                            } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the allergen of this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " + response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
+        handleProductIngredients
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    System.out.println("The name of the product is  " + product);
+
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+
+                        if (response.getStatus() == 200) {
+                                JSONObject jsonObject = new JSONObject(response.getBody());
+                                JSONArray dataArray = jsonObject.getJSONArray("data");
+                                String productName = dataArray.getJSONObject(0).getString("name");
+                                Object ingredientsObject = dataArray.getJSONObject(0).get("ingredients");
+                                String brandName = dataArray.getJSONObject(0).getString("brand");
+
+                                if (ingredientsObject == null) {
+                                    reactPlatform.reply(context, "Couldn't find the list of ingredients of " + productName + " from " + brandName);
+                                } else if (ingredientsObject instanceof String) {
+                                    String ingredients = (String) ingredientsObject;
+                                    System.out.println("The ingredients of " + productName + " are " + ingredients);
+                                    reactPlatform.reply(context, "The ingredients of " + productName + " from " + brandName + " are: " + ingredients);
+                                } else {
+                                    reactPlatform.reply(context, "Couldn't find the list of ingredients of " + productName + " from " + brandName);
+                                }
+
+
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the price of this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+
                     }
                 })
                 .next()
