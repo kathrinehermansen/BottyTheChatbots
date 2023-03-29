@@ -5831,3 +5831,2289 @@ java.net.SocketException: Socket closed
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
 2023-03-27 17:13:58 INFO  SocketIO server stopped
+2023-03-29 13:51:44 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 13:51:44 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 13:51:44 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 13:51:44 INFO  SocketIO server started at port: 5001
+2023-03-29 13:51:44 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 13:51:44 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 13:51:44 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 13:51:44 INFO  Starting ReactEventProvider
+2023-03-29 13:51:44 INFO  Starting ReactIntentProvider
+2023-03-29 13:51:44 INFO  Registering execution rule events
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 13:51:44 INFO  Starting XatkitServer
+2023-03-29 13:51:44 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 13:51:44 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 13:51:44 INFO  Xatkit bot started
+2023-03-29 13:52:06 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does sjokolade have soya?"
+Intent Parameters: {name="sjokolade", allergen="soya"}
+2023-03-29 13:52:47 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have milk?"
+Intent Parameters: {name="grandiosa", allergen="milk"}
+2023-03-29 13:53:54 INFO  Detected Intent ProductAllergens (confidence 1) from query text "Which allergens does grandiosa have?"
+Intent Parameters: {name="grandiosa"}
+2023-03-29 13:56:00 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have melk?"
+Intent Parameters: {name="grandiosa", allergen="melk"}
+2023-03-29 13:56:27 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Melk?"
+Intent Parameters: {name="grandiosa", allergen="Melk"}
+2023-03-29 14:16:49 INFO  Stopping SocketIO server
+2023-03-29 14:16:49 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:16:53 INFO  SocketIO server stopped
+2023-03-29 14:17:15 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:17:15 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:17:16 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:17:16 INFO  SocketIO server started at port: 5001
+2023-03-29 14:17:16 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:17:16 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:17:16 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:17:16 INFO  Starting ReactEventProvider
+2023-03-29 14:17:16 INFO  Starting ReactIntentProvider
+2023-03-29 14:17:16 INFO  Registering execution rule events
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:17:16 INFO  Starting XatkitServer
+2023-03-29 14:17:16 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:17:16 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:17:16 INFO  Xatkit bot started
+2023-03-29 14:17:47 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have melk?"
+Intent Parameters: {name="grandiosa", allergen="melk"}
+2023-03-29 14:18:03 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "does grandiosa have gluten?"
+2023-03-29 14:18:09 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "does grandiosa have gluten?"
+2023-03-29 14:18:35 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "does grandiosa have Gluten?"
+2023-03-29 14:18:40 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have melk?"
+Intent Parameters: {name="grandiosa", allergen="melk"}
+2023-03-29 14:18:56 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:27:04 INFO  Stopping SocketIO server
+2023-03-29 14:27:04 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:27:09 INFO  SocketIO server stopped
+2023-03-29 14:27:26 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:27:26 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:27:27 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:27:27 INFO  SocketIO server started at port: 5001
+2023-03-29 14:27:27 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:27:27 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:27:27 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:27:27 INFO  Starting ReactEventProvider
+2023-03-29 14:27:27 INFO  Starting ReactIntentProvider
+2023-03-29 14:27:27 INFO  Registering execution rule events
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:27:27 INFO  Starting XatkitServer
+2023-03-29 14:27:27 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:27:27 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:27:27 INFO  Xatkit bot started
+2023-03-29 14:27:50 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:31:22 INFO  Stopping SocketIO server
+2023-03-29 14:31:22 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:31:26 INFO  SocketIO server stopped
+2023-03-29 14:32:13 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:32:13 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:32:13 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:32:13 INFO  SocketIO server started at port: 5001
+2023-03-29 14:32:13 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:32:13 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:32:13 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:32:13 INFO  Starting ReactEventProvider
+2023-03-29 14:32:13 INFO  Starting ReactIntentProvider
+2023-03-29 14:32:13 INFO  Registering execution rule events
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:32:14 INFO  Starting XatkitServer
+2023-03-29 14:32:14 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:32:14 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:32:14 INFO  Xatkit bot started
+2023-03-29 14:32:21 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:33:08 INFO  Stopping SocketIO server
+2023-03-29 14:33:08 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:33:13 INFO  SocketIO server stopped
+2023-03-29 14:34:01 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:34:02 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:34:02 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:34:02 INFO  SocketIO server started at port: 5001
+2023-03-29 14:34:02 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:34:02 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:34:02 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:34:02 INFO  Starting ReactEventProvider
+2023-03-29 14:34:02 INFO  Starting ReactIntentProvider
+2023-03-29 14:34:02 INFO  Registering execution rule events
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:34:02 INFO  Starting XatkitServer
+2023-03-29 14:34:02 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:34:02 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:34:02 INFO  Xatkit bot started
+2023-03-29 14:34:10 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:35:11 INFO  Stopping SocketIO server
+2023-03-29 14:35:11 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:35:15 INFO  SocketIO server stopped
+2023-03-29 14:35:32 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:35:32 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:35:33 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:35:33 INFO  SocketIO server started at port: 5001
+2023-03-29 14:35:33 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:35:33 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:35:33 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:35:33 INFO  Starting ReactEventProvider
+2023-03-29 14:35:33 INFO  Starting ReactIntentProvider
+2023-03-29 14:35:33 INFO  Registering execution rule events
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:35:33 INFO  Starting XatkitServer
+2023-03-29 14:35:33 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:35:33 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:35:33 INFO  Xatkit bot started
+2023-03-29 14:35:38 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:36:00 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Gluten?"
+Intent Parameters: {name="grandiosa", allergen="Gluten"}
+2023-03-29 14:37:48 INFO  Stopping SocketIO server
+2023-03-29 14:37:48 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:37:53 INFO  SocketIO server stopped
+2023-03-29 14:38:43 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:38:43 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:38:43 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:38:44 INFO  SocketIO server started at port: 5001
+2023-03-29 14:38:44 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:38:44 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:38:44 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:38:44 INFO  Starting ReactEventProvider
+2023-03-29 14:38:44 INFO  Starting ReactIntentProvider
+2023-03-29 14:38:44 INFO  Registering execution rule events
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:38:44 INFO  Starting XatkitServer
+2023-03-29 14:38:44 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:38:44 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:38:44 INFO  Xatkit bot started
+2023-03-29 14:38:47 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Gluten?"
+Intent Parameters: {name="grandiosa", allergen="Gluten"}
+2023-03-29 14:39:20 INFO  Stopping SocketIO server
+2023-03-29 14:39:20 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:39:24 INFO  SocketIO server stopped
+2023-03-29 14:39:45 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:39:45 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:39:45 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:39:46 INFO  SocketIO server started at port: 5001
+2023-03-29 14:39:46 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:39:46 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:39:46 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:39:46 INFO  Starting ReactEventProvider
+2023-03-29 14:39:46 INFO  Starting ReactIntentProvider
+2023-03-29 14:39:46 INFO  Registering execution rule events
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:39:46 INFO  Starting XatkitServer
+2023-03-29 14:39:46 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:39:46 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:39:46 INFO  Xatkit bot started
+2023-03-29 14:39:50 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Gluten?"
+Intent Parameters: {name="grandiosa", allergen="Gluten"}
+2023-03-29 14:40:07 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Gluten?"
+Intent Parameters: {name="grandiosa", allergen="Gluten"}
+2023-03-29 14:40:39 INFO  Stopping SocketIO server
+2023-03-29 14:40:39 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:40:43 INFO  SocketIO server stopped
+2023-03-29 14:41:04 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:41:04 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:41:05 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:41:05 INFO  SocketIO server started at port: 5001
+2023-03-29 14:41:05 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:41:05 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:41:05 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:41:05 INFO  Starting ReactEventProvider
+2023-03-29 14:41:05 INFO  Starting ReactIntentProvider
+2023-03-29 14:41:05 INFO  Registering execution rule events
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:41:05 INFO  Starting XatkitServer
+2023-03-29 14:41:05 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:41:05 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:41:05 INFO  Xatkit bot started
+2023-03-29 14:41:11 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have Gluten?"
+Intent Parameters: {name="grandiosa", allergen="Gluten"}
+2023-03-29 14:41:28 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:41:36 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have milk?"
+Intent Parameters: {name="grandiosa", allergen="milk"}
+2023-03-29 14:41:39 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have melk?"
+Intent Parameters: {name="grandiosa", allergen="melk"}
+2023-03-29 14:43:51 INFO  Stopping SocketIO server
+2023-03-29 14:43:51 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:43:55 INFO  SocketIO server stopped
+2023-03-29 14:44:26 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:44:26 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:44:26 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:44:26 INFO  SocketIO server started at port: 5001
+2023-03-29 14:44:26 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:44:26 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:44:26 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:44:26 INFO  Starting ReactEventProvider
+2023-03-29 14:44:26 INFO  Starting ReactIntentProvider
+2023-03-29 14:44:26 INFO  Registering execution rule events
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:44:26 INFO  Starting XatkitServer
+2023-03-29 14:44:26 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:44:26 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:44:26 INFO  Xatkit bot started
+2023-03-29 14:44:31 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have melk?"
+Intent Parameters: {name="grandiosa", allergen="melk"}
+2023-03-29 14:44:37 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have gluten?"
+Intent Parameters: {name="grandiosa", allergen="gluten"}
+2023-03-29 14:44:41 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have soya?"
+Intent Parameters: {name="grandiosa", allergen="soya"}
+2023-03-29 14:44:48 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have bjejej?"
+Intent Parameters: {name="grandiosa", allergen="bjejej"}
+2023-03-29 14:47:39 INFO  Stopping SocketIO server
+2023-03-29 14:47:39 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:47:44 INFO  SocketIO server stopped
+2023-03-29 14:49:59 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:49:59 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:50:00 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:50:00 INFO  SocketIO server started at port: 5001
+2023-03-29 14:50:00 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:50:00 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:50:00 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:50:00 INFO  Starting ReactEventProvider
+2023-03-29 14:50:00 INFO  Starting ReactIntentProvider
+2023-03-29 14:50:00 INFO  Registering execution rule events
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:50:00 INFO  Starting XatkitServer
+2023-03-29 14:50:00 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:50:00 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:50:00 INFO  Xatkit bot started
+2023-03-29 14:50:37 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have bjejej?"
+Intent Parameters: {name="grandiosa", allergen="bjejej"}
+2023-03-29 14:51:10 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does grandiosa have bl?tdyr?"
+Intent Parameters: {name="grandiosa", allergen="bl?tdyr"}
+2023-03-29 14:51:34 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "What allergens does tomatsaus have?"
+2023-03-29 14:52:02 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of tomatsaus?"
+Intent Parameters: {name="tomatsaus"}
+2023-03-29 14:52:12 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of tomatsaus?"
+Intent Parameters: {name="tomatsaus"}
+2023-03-29 14:52:24 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 14:52:53 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of dressing?"
+Intent Parameters: {name="dressing"}
+2023-03-29 14:53:05 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sennep?"
+Intent Parameters: {name="sennep"}
+2023-03-29 14:56:04 INFO  Stopping SocketIO server
+2023-03-29 14:56:04 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 14:56:09 INFO  SocketIO server stopped
+2023-03-29 14:56:26 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 14:56:26 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 14:56:26 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 14:56:26 INFO  SocketIO server started at port: 5001
+2023-03-29 14:56:26 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 14:56:26 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 14:56:26 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 14:56:26 INFO  Starting ReactEventProvider
+2023-03-29 14:56:26 INFO  Starting ReactIntentProvider
+2023-03-29 14:56:26 INFO  Registering execution rule events
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 14:56:27 INFO  Starting XatkitServer
+2023-03-29 14:56:27 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 14:56:27 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 14:56:27 INFO  Xatkit bot started
+2023-03-29 14:56:34 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sennep?"
+Intent Parameters: {name="sennep"}
+2023-03-29 14:56:44 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of dressing?"
+Intent Parameters: {name="dressing"}
+2023-03-29 14:56:56 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of banan?"
+Intent Parameters: {name="banan"}
+2023-03-29 14:57:05 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 14:57:12 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of tomatsaus?"
+Intent Parameters: {name="tomatsaus"}
+2023-03-29 14:57:24 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of appelsin?"
+Intent Parameters: {name="appelsin"}
+2023-03-29 14:57:33 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of appelsinjuice?"
+Intent Parameters: {name="appelsinjuice"}
+2023-03-29 15:02:21 INFO  Stopping SocketIO server
+2023-03-29 15:02:21 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:02:26 INFO  SocketIO server stopped
+2023-03-29 15:17:47 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:17:47 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:17:48 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:17:48 INFO  SocketIO server started at port: 5001
+2023-03-29 15:17:48 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:17:48 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:17:48 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:17:48 INFO  Starting ReactEventProvider
+2023-03-29 15:17:48 INFO  Starting ReactIntentProvider
+2023-03-29 15:17:48 INFO  Registering execution rule events
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:17:48 INFO  Starting XatkitServer
+2023-03-29 15:17:48 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:17:48 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:17:48 INFO  Xatkit bot started
+2023-03-29 15:18:19 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "What allergens does grandiosa have"
+2023-03-29 15:18:22 INFO  Detected Intent Default_Fallback_Intent (confidence 1) from query text "What allergens does grandiosa have?"
+2023-03-29 15:18:47 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of grandiosa?"
+Intent Parameters: {name="grandiosa"}
+2023-03-29 15:19:01 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 15:19:09 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of dressing?"
+Intent Parameters: {name="dressing"}
+2023-03-29 15:19:23 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sennep?"
+Intent Parameters: {name="sennep"}
+2023-03-29 15:19:36 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:20:46 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of melk?"
+Intent Parameters: {name="melk"}
+2023-03-29 15:23:48 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does melk have melk?"
+Intent Parameters: {name="melk", allergen="melk"}
+2023-03-29 15:24:14 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does melk contain soya?"
+Intent Parameters: {name="melk", allergen="soya"}
+2023-03-29 15:24:34 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does melk contain gluten?"
+Intent Parameters: {name="melk", allergen="gluten"}
+2023-03-29 15:25:13 INFO  Stopping SocketIO server
+2023-03-29 15:25:13 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:25:18 INFO  SocketIO server stopped
+2023-03-29 15:25:35 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:25:35 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:25:35 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:25:35 INFO  SocketIO server started at port: 5001
+2023-03-29 15:25:35 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:25:35 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:25:35 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:25:35 INFO  Starting ReactEventProvider
+2023-03-29 15:25:35 INFO  Starting ReactIntentProvider
+2023-03-29 15:25:35 INFO  Registering execution rule events
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:25:36 INFO  Starting XatkitServer
+2023-03-29 15:25:36 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:25:36 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:25:36 INFO  Xatkit bot started
+2023-03-29 15:25:48 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does melk contain gluten?"
+Intent Parameters: {name="melk", allergen="gluten"}
+2023-03-29 15:25:59 INFO  Stopping SocketIO server
+2023-03-29 15:25:59 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:26:03 INFO  SocketIO server stopped
+2023-03-29 15:31:44 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:31:44 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:31:44 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:31:45 INFO  SocketIO server started at port: 5001
+2023-03-29 15:31:45 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:31:45 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:31:45 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:31:45 INFO  Starting ReactEventProvider
+2023-03-29 15:31:45 INFO  Starting ReactIntentProvider
+2023-03-29 15:31:45 INFO  Registering execution rule events
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:31:45 INFO  Starting XatkitServer
+2023-03-29 15:31:45 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:31:45 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:31:45 INFO  Xatkit bot started
+2023-03-29 15:31:54 INFO  Detected Intent HasAllergen (confidence 1) from query text "Does melk contain gluten?"
+Intent Parameters: {name="melk", allergen="gluten"}
+2023-03-29 15:32:17 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:32:24 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of dressing?"
+Intent Parameters: {name="dressing"}
+2023-03-29 15:33:46 INFO  Stopping SocketIO server
+2023-03-29 15:33:46 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:33:51 INFO  SocketIO server stopped
+2023-03-29 15:34:12 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:34:12 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:34:12 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:34:13 INFO  SocketIO server started at port: 5001
+2023-03-29 15:34:13 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:34:13 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:34:13 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:34:13 INFO  Starting ReactEventProvider
+2023-03-29 15:34:13 INFO  Starting ReactIntentProvider
+2023-03-29 15:34:13 INFO  Registering execution rule events
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:34:13 INFO  Starting XatkitServer
+2023-03-29 15:34:13 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:34:13 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:34:13 INFO  Xatkit bot started
+2023-03-29 15:34:26 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of dressing?"
+Intent Parameters: {name="dressing"}
+2023-03-29 15:35:08 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:35:23 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of melk?"
+Intent Parameters: {name="melk"}
+2023-03-29 15:36:12 INFO  Stopping SocketIO server
+2023-03-29 15:36:12 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:36:16 INFO  SocketIO server stopped
+2023-03-29 15:37:36 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:37:36 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:37:36 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:37:36 INFO  SocketIO server started at port: 5001
+2023-03-29 15:37:36 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:37:36 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:37:36 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:37:36 INFO  Starting ReactEventProvider
+2023-03-29 15:37:37 INFO  Starting ReactIntentProvider
+2023-03-29 15:37:37 INFO  Registering execution rule events
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:37:37 INFO  Starting XatkitServer
+2023-03-29 15:37:37 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:37:37 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:37:37 INFO  Xatkit bot started
+2023-03-29 15:37:45 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:38:24 INFO  Stopping SocketIO server
+2023-03-29 15:38:24 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:38:29 INFO  SocketIO server stopped
+2023-03-29 15:39:41 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:39:41 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:39:41 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:39:42 INFO  SocketIO server started at port: 5001
+2023-03-29 15:39:42 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:39:42 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:39:42 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:39:42 INFO  Starting ReactEventProvider
+2023-03-29 15:39:42 INFO  Starting ReactIntentProvider
+2023-03-29 15:39:42 INFO  Registering execution rule events
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:39:42 INFO  Starting XatkitServer
+2023-03-29 15:39:42 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:39:42 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:39:42 INFO  Xatkit bot started
+2023-03-29 15:39:54 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:40:15 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of melk?"
+Intent Parameters: {name="melk"}
+2023-03-29 15:44:06 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 15:47:58 INFO  Stopping SocketIO server
+2023-03-29 15:47:58 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:48:03 INFO  SocketIO server stopped
+2023-03-29 15:48:19 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:48:19 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:48:19 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:48:20 INFO  SocketIO server started at port: 5001
+2023-03-29 15:48:20 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:48:20 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:48:20 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:48:20 INFO  Starting ReactEventProvider
+2023-03-29 15:48:20 INFO  Starting ReactIntentProvider
+2023-03-29 15:48:20 INFO  Registering execution rule events
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:20 INFO  Starting XatkitServer
+2023-03-29 15:48:20 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:48:20 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:48:20 INFO  Xatkit bot started
+2023-03-29 15:48:28 INFO  Stopping SocketIO server
+2023-03-29 15:48:28 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:48:33 INFO  SocketIO server stopped
+2023-03-29 15:48:48 INFO  Starting XatkitBot with configuration:
+sun.cpu.isalist=
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+file.separator=/
+maven.home=/opt/homebrew/Cellar/maven/3.8.6/libexec
+java.vendor=Oracle Corporation
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes
+java.ext.dirs=/Users/julieheldal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.version=1.8.0_202
+java.vm.info=mixed mode
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+user.language=nb
+java.specification.vendor=Oracle Corporation
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+sun.arch.data.model=64
+java.vm.specification.version=1.8
+java.class.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar
+user.name=julieheldal
+file.encoding=US-ASCII
+java.specification.version=1.8
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+user.timezone=Europe/Oslo
+user.home=/Users/julieheldal
+library.jansi.path=/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+os.version=10.16
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+maven.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/conf
+java.library.path=/Users/julieheldal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+sun.jnu.encoding=UTF-8
+classworlds.conf=/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf
+os.name=Mac OS X
+java.vm.specification.vendor=Oracle Corporation
+java.io.tmpdir=/var/folders/mt/2k6qdgpd14b6k626v7npzyf40000gn/T/
+line.separator=
+
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.runtime.version=1.8.0_202-b08
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/julieheldal/BottyTheChatbots/GroceryBot
+user.country=NO
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+gopherProxySet=false
+exec.mainClass=com.xatkit.example.GroceryBot
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
+java.vm.version=25.202-b08
+java.runtime.name=Java(TM) SE Runtime Environment
+2023-03-29 15:48:48 INFO  Starting RegExIntentRecognitionProvider
+2023-03-29 15:48:48 INFO  Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-03-29 15:48:48 INFO  SocketIO server started at port: 5001
+2023-03-29 15:48:48 INFO  Registered REST handler  at URI /admin (method=GET)
+2023-03-29 15:48:48 INFO  Registered REST handler  at URI /admin/css/xatkit.min.css (method=GET)
+2023-03-29 15:48:48 INFO  Registered REST handler  at URI /admin/js/xatkit.min.js (method=GET)
+2023-03-29 15:48:48 INFO  Starting ReactEventProvider
+2023-03-29 15:48:48 INFO  Starting ReactIntentProvider
+2023-03-29 15:48:48 INFO  Registering execution rule events
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity country, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 WARN  Cannot find a mapping for the abstract entity any, returning the fallback entity ((\S)+)
+2023-03-29 15:48:49 INFO  Starting XatkitServer
+2023-03-29 15:48:49 INFO  Registered REST handler  at URI /status (method=GET)
+2023-03-29 15:48:49 INFO  XatkitServer started, listening on port 5?000
+2023-03-29 15:48:49 INFO  Xatkit bot started
+2023-03-29 15:49:02 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of avocado?"
+Intent Parameters: {name="avocado"}
+2023-03-29 15:49:18 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 15:49:22 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of sjokolade?"
+Intent Parameters: {name="sjokolade"}
+2023-03-29 15:49:40 INFO  Detected Intent ProductAllergens (confidence 1) from query text "What are the allergens of banan?"
+Intent Parameters: {name="banan"}
+2023-03-29 15:50:41 ERROR 71a4a8a6-4b95-43de-98b6-c441109a9bfa is not registered. Closing connection
+2023-03-29 15:50:41 ERROR 71a4a8a6-4b95-43de-98b6-c441109a9bfa is not registered. Closing connection
+2023-03-29 15:50:41 ERROR 71a4a8a6-4b95-43de-98b6-c441109a9bfa is not registered. Closing connection
+2023-03-29 15:50:41 ERROR context is marked non-null but is null
+java.lang.NullPointerException: context is marked non-null but is null
+	at com.xatkit.core.ExecutionService.handleEventInstance(ExecutionService.java:231) ~[core-5.0.0-SNAPSHOT.jar:?]
+	at com.xatkit.core.platform.io.RuntimeEventProvider.sendEventInstance(RuntimeEventProvider.java:88) ~[core-5.0.0-SNAPSHOT.jar:?]
+	at com.xatkit.plugins.react.platform.io.ReactEventProvider.lambda$start$1(ReactEventProvider.java:94) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
+	at com.corundumstudio.socketio.namespace.Namespace.onDisconnect(Namespace.java:190) [netty-socketio-1.7.17.jar:?]
+	at com.corundumstudio.socketio.transport.NamespaceClient.onDisconnect(NamespaceClient.java:115) [netty-socketio-1.7.17.jar:?]
+	at com.corundumstudio.socketio.handler.ClientHead.onChannelDisconnect(ClientHead.java:183) [netty-socketio-1.7.17.jar:?]
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelInactive(WebSocketTransport.java:148) [netty-socketio-1.7.17.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.http.websocketx.extensions.compression.DeflateDecoder.channelInactive(DeflateDecoder.java:119) [netty-codec-http-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at com.corundumstudio.socketio.transport.PollingTransport.channelInactive(PollingTransport.java:190) [netty-socketio-1.7.17.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:390) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:355) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1429) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:947) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:826) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:474) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 15:50:41 ERROR 71a4a8a6-4b95-43de-98b6-c441109a9bfa is not registered. Closing connection
+2023-03-29 15:50:41 ERROR No endpoint registered for GET: /favicon.ico
+2023-03-29 16:02:11 INFO  Stopping SocketIO server
+2023-03-29 16:02:11 ERROR null
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409) ~[?:1.8.0_202]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545) ~[?:1.8.0_202]
+	at java.net.ServerSocket.accept(ServerSocket.java:513) ~[?:1.8.0_202]
+	at org.apache.http.impl.bootstrap.RequestListener.run(RequestListener.java:74) [httpcore-4.4.10.jar:4.4.10]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2023-03-29 16:02:16 INFO  SocketIO server stopped
