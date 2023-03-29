@@ -16,6 +16,7 @@ import static com.xatkit.dsl.DSL.model;
 import static com.xatkit.dsl.DSL.state;
 import static com.xatkit.dsl.DSL.country;
 import static com.xatkit.dsl.DSL.any;
+import static com.xatkit.dsl.DSL.any;
 import static com.xatkit.dsl.DSL.mapping;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
@@ -79,6 +80,11 @@ public class GroceryBot {
                 .trainingSentence("How many calories does PRODUCT have?")
                 .parameter("name").fromFragment("PRODUCT").entity(country());
 
+        val productMaxPrice = intent("ProductMaxPrice")
+                .trainingSentence("List me products with the word PRODUCT in it, with maximum price of MAXPRICE kr")
+                .trainingSentence("List me PRODUCT with max price of MAXPRICE kr")
+                .parameter("name").fromFragment("PRODUCT").entity(any())
+                .parameter("maxprice").fromFragment("MAXPRICE").entity(any());
         val priceAndStore = intent("PriceAndStore")
                 .trainingSentence("What is the price of PRODUCT from STORE?")
                 .trainingSentence("I would like to know the price of PRODUCT from STORE")
@@ -97,6 +103,7 @@ public class GroceryBot {
         val handleProductAllergens = state("HandleProductAllergens");
         val handleDoYouHavePrice = state("HandleDoYouHavePrice");
         val handleProductCalories = state("HandleProductCalories");
+        val handleProductMaxPrice = state("HandleProductMaxPrice");
         val handlePriceAndStore = state("HandlePriceAndStore");
 
         init
@@ -110,6 +117,7 @@ public class GroceryBot {
                 .when(intentIs(doYouHavePrice)).moveTo(handleDoYouHavePrice)
                 .when(intentIs(productCalories)).moveTo(handleProductCalories)
                 .when(intentIs(howAreYou)).moveTo(handleWhatsUp)
+                .when(intentIs(productMaxPrice)).moveTo(handleProductMaxPrice);
                 .when(intentIs(priceAndStore)).moveTo(handlePriceAndStore);
 
         handleWelcome
@@ -286,7 +294,49 @@ public class GroceryBot {
                 .next()
                 .moveTo(awaitingInput);
 
-        handlePriceAndStore
+        handleProductMaxPrice
+                .body(context -> {
+                    String product = (String) context.getIntent().getValue("name");
+                    String maxprice = (String) context.getIntent().getValue("maxprice");
+
+                    Map<String, Object> queryParameters = new HashMap<>();
+                    queryParameters.put("name", product);
+                    queryParameters.put("maxprice", maxprice);
+
+                    try {
+                        HttpResponse<String> response = Unirest.get("https://kassal.app/api/v1/products?search=" + product +"&size=50&price_max=" + maxprice)
+                                .header("Authorization", "Bearer " + key)
+                                .header("Accept", "application/json")
+                                .asString();
+
+                        if (response.getStatus() == 200) {
+
+                            JSONObject jsonObject = new JSONObject(response.getBody());
+                            JSONArray dataArray = jsonObject.getJSONArray("data");
+
+                            reactPlatform.reply(context, "We found this information about products with the word " + product + " in it, with a maximum price of " + maxprice + " kr:");
+
+                            for (int i = 0; i<dataArray.length(); i++) {
+                                    String storeName = dataArray.getJSONObject(i).getJSONObject("store").getString("name");
+                                    String productName = dataArray.getJSONObject(i).getString("name");
+                                    double currentPrice = dataArray.getJSONObject(i).getDouble("current_price");
+                                    String brandName = dataArray.getJSONObject(i).getString("brand");
+                                    reactPlatform.reply(context, "The price of  " + productName + " from " + brandName +" is currently " + currentPrice + " kr, from store " + storeName);
+                                }
+
+                        } else if (response.getStatus() == 400) {
+                            reactPlatform.reply(context, "Oops, I couldn't find the price of this product");
+                        } else {
+                            reactPlatform.reply(context, "Sorry, an error occurred " +  response.getStatus());
+                        }
+                    } catch(UnirestException e) {
+                        e.printStackTrace();
+                    }
+                })
+                .next()
+                .moveTo(awaitingInput);
+
+                 handlePriceAndStore
                 .body(context -> {
 
                     String product = (String) context.getIntent().getValue("name");
