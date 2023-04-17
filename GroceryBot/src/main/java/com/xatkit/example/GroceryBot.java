@@ -77,6 +77,10 @@ public class GroceryBot {
 
         String key = retrieveKey();
 
+
+
+
+
         val greetings = intent("Greetings")
                 .trainingSentence("Hi")
                 .trainingSentence("Hello")
@@ -153,6 +157,7 @@ public class GroceryBot {
         ReactIntentProvider reactIntentProvider = reactPlatform.getReactIntentProvider();
 
         val init = state("Init");
+        val greetUser = state("GreetUser");
         val awaitingInput = state("AwaitingInput");
         val handleWelcome = state("HandleWelcome");
         val handleWhatsUp = state("HandleWhatsUp");
@@ -168,8 +173,20 @@ public class GroceryBot {
 
         init
                 .next()
-                .when(eventIs(ReactEventProvider.ClientReady)).moveTo(awaitingInput);
+                .when(eventIs(ReactEventProvider.ClientReady)).moveTo(greetUser);
+        greetUser
+                .body(context -> reactPlatform.reply(context, "Hi, my name is Botty! You can ask me questions about grocery product information. Currently including: \n " +
+                        "What is the price of this of product? \n" +
+                        "Which allergens does product have? \n" +
+                        "Does product have allergen? \n" +
+                        "How many calories does product have? \n" +
+                        "What are the ingredients in product? \n" +
+                        "List me products with the word PRODUCT in it, with maximum price of MAXPRICE kr \n" +
+                        "How much does product from store cost? \n" +
+                        "Narrow search to ..."))
 
+                .next()
+                .moveTo(awaitingInput);
         awaitingInput
                 .next()
                 .when(intentIs(greetings)).moveTo(handleWelcome)
@@ -233,8 +250,8 @@ public class GroceryBot {
                                     allergens += allergenDisplayName + ", ";
                                     System.out.println(allergenDisplayName);
 
-                                } // virker ikke foreløpig
-
+                                }
+                            // Checking whether the allergen data is not stated / unknown
                             } if(allergensdata.length() < 1) {
                                 reactPlatform.reply(context, "Allergens are not stated for " + productName + " from " + brandName);
 
