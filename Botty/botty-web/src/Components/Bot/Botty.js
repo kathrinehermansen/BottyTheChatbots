@@ -18,21 +18,3 @@ const Botty = () => {
 };
 
 export default Botty;
-
-/*
-
-// import { ChatWidget } from 'xatkit-chat-widget'
-const Botty = () => {
-    /* const server = "http://localhost:5000";
-    const username = "Kathrine";
-
-    renderXatkitWidget();
-
-    return (
-        <ChatWidget
-            botUrl={server}
-            botName={username}
-        />
-    );
-};
-*/

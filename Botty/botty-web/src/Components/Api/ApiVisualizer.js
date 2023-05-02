@@ -1,4 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
+import ApiJSON from "./ApiJSON";
 
 const ApiVisualizer = ({drink}) => {
 
@@ -13,8 +14,12 @@ const ApiVisualizer = ({drink}) => {
               )
                 .then((response) => response.json())
                 .then((data) => {
-                    drinkDataSet(data.drinks);
-                    isFetchingSet(false);
+                    if (data) {
+                        drinkDataSet(data.drinks);
+                        isFetchingSet(false);
+                    } else {
+                        console.log("error")
+                    }
                 });
             };
             data();
@@ -23,10 +28,12 @@ const ApiVisualizer = ({drink}) => {
         console.log(drinkData)
 
         useEffect(() => {
-            if (Object.keys(drinkData).length > 0) {
+            if (drinkData) {
+                if (Object.keys(drinkData).length > 0) {
                 drinkData?.map((item) => {
                 console.log(item.strDrink)
             })
+            }
             }
         }, [drinkData])
 
@@ -37,7 +44,7 @@ const ApiVisualizer = ({drink}) => {
                 <><div className="loader"/></>
             ) : (
                 <>
-                hello
+                <ApiJSON data={drinkData}/>
                 </>
             )
             }

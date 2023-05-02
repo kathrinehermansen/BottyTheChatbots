@@ -1,7 +1,7 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 import Header from "../Components/Header";
 import InputField from "../Components/InputField";
-import ApiVisualizer from "../Components/ApiVisualizer";
+import ApiVisualizer from "../Components/Api/ApiVisualizer";
 
 const Home = () => {
 
