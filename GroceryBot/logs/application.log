@@ -15,7 +15,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -58,7 +58,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/BottyMaster/xatkit/xatkit-exa
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -104,7 +104,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -147,7 +147,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -193,7 +193,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -236,7 +236,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -284,7 +284,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -327,7 +327,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -378,7 +378,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -421,7 +421,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -472,7 +472,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -515,7 +515,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -562,7 +562,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -605,7 +605,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -652,7 +652,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -695,7 +695,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -742,7 +742,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -785,7 +785,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -832,7 +832,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -875,7 +875,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -922,7 +922,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -965,7 +965,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1012,7 +1012,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1055,7 +1055,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1090,7 +1090,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1133,7 +1133,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1166,7 +1166,7 @@ org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 l
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:106) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:145) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:159) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:159) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1185,7 +1185,7 @@ Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [ch
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
 	at org.json.JSONArray.<init>(JSONArray.java:106)
 	at org.json.JSONArray.<init>(JSONArray.java:145)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:159)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:159)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1208,7 +1208,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1251,7 +1251,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1279,7 +1279,7 @@ org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 l
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:106) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:145) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:159) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:159) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1298,7 +1298,7 @@ Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [ch
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
 	at org.json.JSONArray.<init>(JSONArray.java:106)
 	at org.json.JSONArray.<init>(JSONArray.java:145)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:159)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:159)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1333,7 +1333,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1376,7 +1376,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1403,7 +1403,7 @@ Intent Parameters: {name="grandiosa"}
 org.json.JSONException: JSONObject["name"] not found.
 	at org.json.JSONObject.get(JSONObject.java:471) ~[json-20160212.jar:?]
 	at org.json.JSONObject.getJSONArray(JSONObject.java:618) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:161) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:161) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1421,7 +1421,7 @@ org.json.JSONException: JSONObject["name"] not found.
 Caused by: org.json.JSONException: JSONObject["name"] not found.
 	at org.json.JSONObject.get(JSONObject.java:471)
 	at org.json.JSONObject.getJSONArray(JSONObject.java:618)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:161)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:161)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1457,7 +1457,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1500,7 +1500,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1527,7 +1527,7 @@ Intent Parameters: {name="grandiosa"}
 org.json.JSONException: JSONObject["current_price"] not found.
 	at org.json.JSONObject.get(JSONObject.java:471) ~[json-20160212.jar:?]
 	at org.json.JSONObject.getJSONArray(JSONObject.java:618) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:161) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:161) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1545,7 +1545,7 @@ org.json.JSONException: JSONObject["current_price"] not found.
 Caused by: org.json.JSONException: JSONObject["current_price"] not found.
 	at org.json.JSONObject.get(JSONObject.java:471)
 	at org.json.JSONObject.getJSONArray(JSONObject.java:618)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:161)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:161)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1580,7 +1580,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1623,7 +1623,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1650,7 +1650,7 @@ org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 l
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:106) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:145) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:162) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:162) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1669,7 +1669,7 @@ Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [ch
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
 	at org.json.JSONArray.<init>(JSONArray.java:106)
 	at org.json.JSONArray.<init>(JSONArray.java:145)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:162)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:162)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1704,7 +1704,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1747,7 +1747,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1774,7 +1774,7 @@ org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 l
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:106) ~[json-20160212.jar:?]
 	at org.json.JSONArray.<init>(JSONArray.java:145) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:163) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:163) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -1793,7 +1793,7 @@ Caused by: org.json.JSONException: A JSONArray text must start with '[' at 1 [ch
 	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
 	at org.json.JSONArray.<init>(JSONArray.java:106)
 	at org.json.JSONArray.<init>(JSONArray.java:145)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:163)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:163)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -1828,7 +1828,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1871,7 +1871,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -1923,7 +1923,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -1966,7 +1966,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2018,7 +2018,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2061,7 +2061,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2112,7 +2112,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2155,7 +2155,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2213,7 +2213,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2256,7 +2256,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2313,7 +2313,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2356,7 +2356,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2411,7 +2411,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2454,7 +2454,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2510,7 +2510,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2553,7 +2553,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2578,7 +2578,7 @@ Intent Parameters: {name="grandiosa"}
 2023-03-24 14:59:38 ERROR An error occurred when executing the body of state HandleDoYouHavePrice
 org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:164) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:164) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -2595,7 +2595,7 @@ org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:164)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:164)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -2630,7 +2630,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2673,7 +2673,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2698,7 +2698,7 @@ Intent Parameters: {name="grandiosa"}
 2023-03-24 15:04:03 ERROR An error occurred when executing the body of state HandleDoYouHavePrice
 org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:164) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:164) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -2715,7 +2715,7 @@ org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["allergens"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:164)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:164)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -2750,7 +2750,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2793,7 +2793,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2844,7 +2844,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2887,7 +2887,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -2939,7 +2939,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -2982,7 +2982,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3013,7 +3013,7 @@ Intent Parameters: {name="spisspaprika"}
 2023-03-24 15:36:43 ERROR An error occurred when executing the body of state HandleProductAllergens
 org.json.JSONException: JSONObject["brand"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:125) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:125) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3030,7 +3030,7 @@ org.json.JSONException: JSONObject["brand"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["brand"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:125)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:125)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3073,7 +3073,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3116,7 +3116,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3143,7 +3143,7 @@ Intent Parameters: {name="banan"}
 2023-03-24 15:50:18 ERROR An error occurred when executing the body of state HandleProductAllergens
 java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_202]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:141) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:141) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3160,7 +3160,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:141)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:141)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3195,7 +3195,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3238,7 +3238,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3266,7 +3266,7 @@ Intent Parameters: {name="tomatsaus"}
 2023-03-24 16:01:22 ERROR An error occurred when executing the body of state HandleProductAllergens
 java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_202]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:145) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:145) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3283,7 +3283,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:145)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:145)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3319,7 +3319,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3362,7 +3362,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3389,7 +3389,7 @@ Intent Parameters: {name="banan"}
 2023-03-24 16:22:34 ERROR An error occurred when executing the body of state HandleProductAllergens
 java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_202]
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:149) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:149) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3406,7 +3406,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 	at java.lang.String.substring(String.java:1967)
-	at com.xatkit.example.GroceryBot.lambda$main$2(GroceryBot.java:149)
+	at com.xatkit.bot.GroceryBot.lambda$main$2(GroceryBot.java:149)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3442,7 +3442,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3485,7 +3485,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3538,7 +3538,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3581,7 +3581,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3643,7 +3643,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3686,7 +3686,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3718,7 +3718,7 @@ Intent Parameters: {name="sjokolade"}
 2023-03-27 13:08:13 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] is not a JSONArray.
 	at org.json.JSONObject.getJSONArray(JSONObject.java:622) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$4(GroceryBot.java:251) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$4(GroceryBot.java:251) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3735,7 +3735,7 @@ org.json.JSONException: JSONObject["ingredients"] is not a JSONArray.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] is not a JSONArray.
 	at org.json.JSONObject.getJSONArray(JSONObject.java:622)
-	at com.xatkit.example.GroceryBot.lambda$main$4(GroceryBot.java:251)
+	at com.xatkit.bot.GroceryBot.lambda$main$4(GroceryBot.java:251)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3770,7 +3770,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3813,7 +3813,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3844,7 +3844,7 @@ Intent Parameters: {name="sjokolade"}
 2023-03-27 13:13:13 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$4(GroceryBot.java:251) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$4(GroceryBot.java:251) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -3861,7 +3861,7 @@ org.json.JSONException: JSONObject["ingredients"] is not a JSONObject.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] is not a JSONObject.
 	at org.json.JSONObject.getJSONObject(JSONObject.java:640)
-	at com.xatkit.example.GroceryBot.lambda$main$4(GroceryBot.java:251)
+	at com.xatkit.bot.GroceryBot.lambda$main$4(GroceryBot.java:251)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -3896,7 +3896,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -3939,7 +3939,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -3997,7 +3997,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4040,7 +4040,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4101,7 +4101,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4144,7 +4144,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4203,7 +4203,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4246,7 +4246,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4313,7 +4313,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4356,7 +4356,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4418,7 +4418,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4461,7 +4461,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4550,7 +4550,7 @@ Intent Parameters: {name="Solo"}
 2023-03-27 15:56:12 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -4567,7 +4567,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -4580,7 +4580,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 15:56:37 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -4597,7 +4597,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -4636,7 +4636,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4679,7 +4679,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4713,7 +4713,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:00:26 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -4730,7 +4730,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -4769,7 +4769,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4812,7 +4812,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4848,7 +4848,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:03:50 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -4865,7 +4865,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -4900,7 +4900,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -4943,7 +4943,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -4977,7 +4977,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:06:45 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -4994,7 +4994,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5006,7 +5006,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:07:18 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5023,7 +5023,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5058,7 +5058,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5101,7 +5101,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5135,7 +5135,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:08:21 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5152,7 +5152,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5165,7 +5165,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:47:34 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5182,7 +5182,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5217,7 +5217,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5260,7 +5260,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5294,7 +5294,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:52:01 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:312) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:312) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5311,7 +5311,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:312)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:312)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5346,7 +5346,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5389,7 +5389,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5425,7 +5425,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:55:54 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5442,7 +5442,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5477,7 +5477,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5520,7 +5520,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5556,7 +5556,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 16:58:30 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5573,7 +5573,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:310)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:310)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5608,7 +5608,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5651,7 +5651,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5685,7 +5685,7 @@ Intent Parameters: {name="solo"}
 2023-03-27 17:07:04 ERROR An error occurred when executing the body of state HandleProductIngredients
 org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721) ~[json-20160212.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
@@ -5702,7 +5702,7 @@ org.json.JSONException: JSONObject["ingredients"] not a string.
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.json.JSONException: JSONObject["ingredients"] not a string.
 	at org.json.JSONObject.getString(JSONObject.java:721)
-	at com.xatkit.example.GroceryBot.lambda$main$5(GroceryBot.java:309)
+	at com.xatkit.bot.GroceryBot.lambda$main$5(GroceryBot.java:309)
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104)
 	at com.xatkit.core.ExecutionService.lambda$handleEventInstance$0(ExecutionService.java:248)
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
@@ -5737,7 +5737,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5780,7 +5780,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5848,7 +5848,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -5891,7 +5891,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -5963,7 +5963,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6006,7 +6006,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6077,7 +6077,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6120,7 +6120,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6185,7 +6185,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6228,7 +6228,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6291,7 +6291,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6334,7 +6334,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6398,7 +6398,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6441,7 +6441,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6507,7 +6507,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6550,7 +6550,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6614,7 +6614,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6657,7 +6657,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6723,7 +6723,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6766,7 +6766,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6836,7 +6836,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6879,7 +6879,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -6949,7 +6949,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -6992,7 +6992,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7069,7 +7069,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7112,7 +7112,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7188,7 +7188,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7231,7 +7231,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7313,7 +7313,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7356,7 +7356,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7420,7 +7420,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7463,7 +7463,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7531,7 +7531,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7574,7 +7574,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7642,7 +7642,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7685,7 +7685,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7749,7 +7749,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7792,7 +7792,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7860,7 +7860,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -7903,7 +7903,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -7965,7 +7965,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -8008,7 +8008,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -8134,7 +8134,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -8177,7 +8177,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -8240,7 +8240,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:174) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:174) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8317,7 +8317,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:174) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:174) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8417,7 +8417,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -8460,7 +8460,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -8523,7 +8523,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8600,7 +8600,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8677,7 +8677,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8754,7 +8754,7 @@ java.lang.NullPointerException: null
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:77) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.action.Reply.<init>(Reply.java:59) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
 	at com.xatkit.plugins.react.platform.ReactPlatform.reply(ReactPlatform.java:223) ~[react-platform-4.0.1-SNAPSHOT.jar:?]
-	at com.xatkit.example.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
+	at com.xatkit.bot.GroceryBot.lambda$main$0(GroceryBot.java:177) ~[classes/:?]
 	at com.xatkit.core.ExecutionService.executeBody(ExecutionService.java:104) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.ExecutionService.initContext(ExecutionService.java:82) ~[core-5.0.0-SNAPSHOT.jar:?]
 	at com.xatkit.core.XatkitBot.getOrCreateContext(XatkitBot.java:422) ~[core-5.0.0-SNAPSHOT.jar:?]
@@ -8854,7 +8854,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -8897,7 +8897,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -8984,7 +8984,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -9027,7 +9027,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -9113,7 +9113,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -9156,7 +9156,7 @@ maven.multiModuleProjectDirectory=/Users/julieheldal/BottyTheChatbots/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment
@@ -9251,7 +9251,7 @@ java.vm.info=mixed mode
 awt.toolkit=sun.lwawt.macosx.LWCToolkit
 user.language=nb
 java.specification.vendor=Oracle Corporation
-sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.example.GroceryBot
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher exec:java -Dexec.mainClass=com.xatkit.bot.GroceryBot
 java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
 sun.arch.data.model=64
 java.vm.specification.version=1.8
@@ -9294,7 +9294,7 @@ maven.multiModuleProjectDirectory=/Users/KathrineH/ChatbotBotty/GroceryBot
 java.vm.vendor=Oracle Corporation
 java.vendor.url=http://java.oracle.com/
 gopherProxySet=false
-exec.mainClass=com.xatkit.example.GroceryBot
+exec.mainClass=com.xatkit.bot.GroceryBot
 sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib
 java.vm.version=25.202-b08
 java.runtime.name=Java(TM) SE Runtime Environment

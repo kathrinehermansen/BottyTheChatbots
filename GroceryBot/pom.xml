@@ -132,7 +132,7 @@
                         </descriptorRefs>
                         <archive>
                             <manifest>
-                                <mainClass>com.xatkit.example.GroceryBot</mainClass>
+                                <mainClass>com.xatkit.bot.GroceryBot</mainClass>
                             </manifest>
                         </archive>
                         <finalName>grocery-bot</finalName>

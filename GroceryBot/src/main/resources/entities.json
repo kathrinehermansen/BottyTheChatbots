@@ -1,0 +1,79 @@
+{
+  "name": "GroceryBot",
+  "languages": {
+    "en": {
+      "entities": [
+        {
+          "name": "product",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "allergens",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "price",
+          "type": "number"
+
+        },
+        {
+          "name": "calories",
+          "type": "number"
+
+        },
+        {
+          "name": "store",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "antall",
+          "type": "number"
+        },
+        {
+          "name": "max_price",
+          "type": "number"
+        }
+      ]
+    },
+    "no": {
+      "entities": [
+        {
+          "name": "produkt",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "allergener",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "pris",
+          "type": "number"
+
+        },
+        {
+          "name": "kalorier",
+          "type": "number"
+
+        },
+        {
+          "name": "butikk",
+          "type": "string",
+          "dynamicValues": true
+        },
+        {
+          "name": "antall",
+          "type": "number"
+        },
+        {
+          "name": "max_pris",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

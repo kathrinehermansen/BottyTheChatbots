@@ -1,4 +1,4 @@
-package com.xatkit.example;
+package com.xatkit.bot;
 
 import com.xatkit.core.XatkitBot;
 import com.xatkit.execution.StateContext;
@@ -17,8 +17,6 @@ import static com.xatkit.dsl.DSL.model;
 import static com.xatkit.dsl.DSL.state;
 import static com.xatkit.dsl.DSL.country;
 import static com.xatkit.dsl.DSL.any;
-import static com.xatkit.dsl.DSL.any;
-import static com.xatkit.dsl.DSL.mapping;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.http.HttpResponse;
@@ -31,7 +29,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 import java.lang.Integer;
 
