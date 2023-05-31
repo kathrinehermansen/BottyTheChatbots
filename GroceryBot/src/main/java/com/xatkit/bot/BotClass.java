@@ -63,7 +63,7 @@ public BotClass(Configuration botConfig) {
             .moveTo(startState);
     startState
             .body(context -> {
-                reactPlatform.reply(context, "hello fix messages and utils ");
+                reactPlatform.reply(context, messages.getString("SelectAction"));
 
             })
             .next();
@@ -73,7 +73,7 @@ public BotClass(Configuration botConfig) {
 
     val defaultFallback = fallbackState()
             .body(context -> {
-                reactPlatform.reply(context, "something went wrong");
+                reactPlatform.reply(context, messages.getString("DefaultFallbackMessage"));
             });
 
     /*
