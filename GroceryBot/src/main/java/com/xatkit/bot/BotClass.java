@@ -11,6 +11,8 @@ import org.apache.commons.configuration2.Configuration;
 import com.xatkit.bot.ApiClient;
 import org.json.JSONObject;
 import java.util.Map;
+import java.util.ResourceBundle;
+
 
 import static com.xatkit.dsl.DSL.eventIs;
 import static com.xatkit.dsl.DSL.fallbackState;
@@ -26,6 +28,7 @@ import java.io.IOException;
 public class BotClass {
 
     public final XatkitBot xatkitBot;
+    public final ResourceBundle messages;
 
     private ApiClient apiClient;  // Create an instance of the ApiClient class
 
@@ -34,6 +37,7 @@ public BotClass(Configuration botConfig) {
 
 
     apiClient = new ApiClient();  // Initialize the ApiClient instance
+    messages = ResourceBundle.getBundle("messages"); //add locale later for language
     /*
      * Instantiate the platform and providers we will use in the bot definition.
      */
@@ -52,6 +56,9 @@ public BotClass(Configuration botConfig) {
             .next()
             .when(eventIs(ReactEventProvider.ClientReady)).moveTo(awaitingInput);
     awaitingInput
+            .body(context -> {
+                reactPlatform.reply(context, messages.getString("Greetings"));
+            })
             .next()
             .moveTo(startState);
     startState
