@@ -44,17 +44,17 @@ public class Entity {
     /**
      * The name of the file containing the chatbot field entities
      */
-    private static String entitiesJsonFile = "entities.json";
+   // private static String entitiesJsonFile = "entities.json";
 
     /**
      * The name og the file containing the chatbot operator entities
      */
-    private static String fieldOperatorsJson = "fieldOperators.json";
+   // private static String fieldOperatorsJson = "fieldOperators.json";
 
     /**
      * Contains the chatbot entities in a JSON format
      */
-    private static final JSONObject entitiesJson;
+   // private static final JSONObject entitiesJson;
 
     /**
      *  more to be instantiated but now sure what is needed yet
@@ -123,6 +123,5 @@ public class Entity {
 
 
 
-
-}
 */
+}

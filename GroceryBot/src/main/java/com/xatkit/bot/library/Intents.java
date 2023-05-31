@@ -19,49 +19,49 @@ public class Intents {
     /**
      * A container of the training sentences for each intent in a specific language
      */
-    private XatkitI18nHelper BUNDLE;
+    //   private XatkitI18nHelper BUNDLE;
 
     /**
      * The intent productAllergens
      */
-    public final IntentDefinition productAllergens;
+    //  public final IntentDefinition productAllergens;
 
     /**
      * The intent hasAllergen
      */
-    public final IntentDefinition hasAllergen;
+    //   public final IntentDefinition hasAllergen;
 
     /**
      * The intent DoYouHavePrice
      */
-    public final IntentDefinition doYouHavePrice;
+    // public final IntentDefinition doYouHavePrice;
 
     /**
      * The intent ProductCalories
      */
-    public final IntentDefinition productCalories;
+    //  public final IntentDefinition productCalories;
 
     /**
      * The intent ProductIngredients
      */
-    public final IntentDefinition productIngredients;
+    //  public final IntentDefinition productIngredients;
 
     /**
      * The intent ProductMaxPrice
 
-    public final IntentDefinition productMaxPrice;
+     public final IntentDefinition productMaxPrice;
 
-    /**
+     /**
      * The Intent PriceAndStore
      */
-    public final IntentDefinition priceAndStore;
+    //   public final IntentDefinition priceAndStore;
 
     /**
      * The intent NarrowMySearch
      */
-    public final IntentDefinition narrowMySearch;
+    //  public final IntentDefinition narrowMySearch;
 
-
+/*
     public Intents(Entities entities, Locale locale) {
         BUNDLE = new XatkitI18nHelper("intents", locale);
 
@@ -90,4 +90,5 @@ public class Intents {
 
 
     }
-
+*/
+}
